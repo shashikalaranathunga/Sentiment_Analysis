@@ -1,5 +1,5 @@
 # Sentiment Analysis Flask API
-This sentiment analysis API allows you to get Sentiment for a sentence using GET and POST methods.
+This sentiment analysis API performs sentiment analysis on text data using NLTK's Vader lexicon
 
 ## Requirements
 Use these or any latest  version if you already have installed.\
@@ -22,6 +22,7 @@ Use these or any latest  version if you already have installed.\
 Using GET method - \
 
     http://127.0.0.1:5000?q="Text String to check Sentiment."
+    
 Using POST method - \
 
     curl http://127.0.0.1:5000 -d "q='Text String to check Sentiment.'"
