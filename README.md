@@ -9,7 +9,7 @@ Use these or any latest  version if you already have installed.\
 ## Setup 
 
 1. Clone the repository:\
-    git clone https://github.com/your_username/sentiment-analysis-flask-api.git](https://github.com/shashikalaranathunga/Sentiment_Analysis.git
+    git clone https://github.com/shashikalaranathunga/Sentiment_Analysis.git
 2. Navigate to the project directory:\
     cd Sentiment-analysis
 3. Install dependencies:\
