@@ -2,11 +2,11 @@
 This sentiment analysis API allows you to get Sentiment for a sentence using GET and POST methods.
 
 ## Requirements
-Use these or any latest  version if you already have installed.
+Use these or any latest  version if you already have installed.\
     Flask==3.0.2
     nltk==3.8.1
 
-## Setup and Usage
+## Setup 
 
 1. Clone the repository:
     git clone https://github.com/your_username/sentiment-analysis-flask-api.git](https://github.com/shashikalaranathunga/Sentiment_Analysis.git
