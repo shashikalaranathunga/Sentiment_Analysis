@@ -4,7 +4,7 @@ This sentiment analysis API allows you to get Sentiment for a sentence using GET
 ## Requirements
 Use these or any latest  version if you already have installed.\
     Flask==3.0.2\
-    nltk==3.8.1\
+    nltk==3.8.1
 
 ## Setup 
 
@@ -35,5 +35,6 @@ or
     {"sentiment":"Positive"}
 
 or 
+
      {"sentiment":"neutral"}
 
