@@ -19,11 +19,11 @@ Use these or any latest  version if you already have installed.\
 
 
 ## Usage
-Using GET method - \
+Using GET method - 
 
     http://127.0.0.1:5000?q="Text String to check Sentiment."
     
-Using POST method - \
+Using POST method - 
 
     curl http://127.0.0.1:5000 -d "q='Text String to check Sentiment.'"
 or use in a web based form and send POST request.
