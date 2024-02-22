@@ -1,4 +1,4 @@
-# Sentiment Analysis Flask API
+# Sentiment Analysis using Flask API
 This sentiment analysis API performs sentiment analysis on text data using NLTK's Vader lexicon
 
 ## Requirements
