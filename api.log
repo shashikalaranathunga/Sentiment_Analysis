@@ -1,0 +1,31 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:Input: "", Sentiment: Neutral
+INFO:werkzeug:127.0.0.1 - - [21/Feb/2024 16:22:28] "GET /?q="" HTTP/1.1" 200 -
+INFO:root:Input: "hi", Sentiment: Neutral
+INFO:werkzeug:127.0.0.1 - - [21/Feb/2024 16:22:35] "GET /?q="hi" HTTP/1.1" 200 -
+INFO:root:Input: "hi", Sentiment: Neutral
+INFO:werkzeug:127.0.0.1 - - [21/Feb/2024 16:22:38] "GET /?q="hi" HTTP/1.1" 200 -
+INFO:root:Input: "hi", Sentiment: Neutral
+INFO:werkzeug:127.0.0.1 - - [21/Feb/2024 16:22:39] "GET /?q="hi" HTTP/1.1" 200 -
+INFO:root:Input: "h", Sentiment: Neutral
+INFO:werkzeug:127.0.0.1 - - [21/Feb/2024 16:22:45] "GET /?q="h" HTTP/1.1" 200 -
+INFO:root:Input: "h", Sentiment: Neutral
+INFO:werkzeug:127.0.0.1 - - [21/Feb/2024 16:22:47] "GET /?q="h" HTTP/1.1" 200 -
+ERROR:root:Invalid input: No text provided.
+INFO:werkzeug:127.0.0.1 - - [21/Feb/2024 16:23:34] "[31m[1mGET /?q= HTTP/1.1[0m" 400 -
+ERROR:root:Invalid input: No text provided.
+INFO:root:Input: This is a positive sentence., Sentiment: Positive
+ERROR:root:Invalid input: No text provided.
+INFO:root:Input: test, Sentiment: Neutral
+INFO:root:Input: This is a positive sentence., Sentiment: Positive
+ERROR:root:Invalid input: No text provided.
+INFO:root:Input: test, Sentiment: Neutral
+INFO:root:Input: This is a positive sentence., Sentiment: Positive
+ERROR:root:Invalid input: No text provided.
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:Input: "Text String to check Sentiment.", Sentiment: Neutral
+INFO:werkzeug:127.0.0.1 - - [22/Feb/2024 07:25:12] "GET /?q="Text%20String%20to%20check%20Sentiment." HTTP/1.1" 200 -
